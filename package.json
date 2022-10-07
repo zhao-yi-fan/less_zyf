@@ -1,6 +1,6 @@
 {
   "name": "less_zyf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": {
     "less_zyf": "./src/index.js"

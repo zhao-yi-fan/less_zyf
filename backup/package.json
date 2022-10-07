@@ -9,7 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "less_zyf": "^1.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "less_zyf": "^1.0.1"
   }
 }
