@@ -1,15 +1,13 @@
-//=> 需要把config放到当前项目的根目录中
-let path = require('path'),
-    rootPath = __dirname;
+const path = require('path');
+const CWD = process.cwd();
 
 module.exports = {
-    //=> 需要编译的LESS文件
-    entry: [
-        `${rootPath}/less/index.less`,
-        `${rootPath}/less/detail.less`
-    ],
-    output: [
-        `${rootPath}/css/index.min.css`,
-        `${rootPath}/css/detail.min.css`
-    ]
+  entry: [
+    `${CWD}/less/index.less`,
+    `${CWD}/less/detail.less`
+  ],
+  output: [
+    `${CWD}/css/index.min.css`,
+    `${CWD}/css/detail.min.css`
+  ],
 }
